@@ -1,0 +1,10 @@
+name: 'uLogin'
+type: module
+description: 'uLogin integration to authenticate users through social networks.'
+package: 'User interface'
+version: 8.x-1.0-dev
+configure: ulogin.settings
+core: 8.x
+dependencies:
+  - externalauth
+
